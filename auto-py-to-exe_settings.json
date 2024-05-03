@@ -7,7 +7,7 @@
   },
   {
    "optionDest": "filenames",
-   "value": "C:/Users/Kell/Desktop/OSRS-Bot-COLOR/src/OSRS Bot COLOR.py"
+   "value": "C:/Users/Kell/Desktop/OSRS-Bot-COLOR/src/OSBC.py"
   },
   {
    "optionDest": "onefile",
@@ -72,10 +72,6 @@
   {
    "optionDest": "datas",
    "value": "C:/Users/Kell/Desktop/OSRS-Bot-COLOR/env/Lib/site-packages/customtkinter;customtkinter"
-  },
-  {
-   "optionDest": "datas",
-   "value": "C:/Users/Kell/Desktop/OSRS-Bot-COLOR/env/Lib/site-packages/easyocr;easyocr"
   },
   {
    "optionDest": "datas",

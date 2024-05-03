@@ -259,19 +259,18 @@ class Bot(ABC):
 
 
     def log_msg(self, msg: str, overwrite=False):
-        """
+        '''
         Sends a message to the controller to be displayed in the log for the user.
         Args:
             msg: str - message to log
             overwrite: bool - if True, overwrites the current log message. If False, appends to the log.
-        """
-        msg = f"{debug.current_time()}: {msg}"
+        '''
         self.controller.update_log(msg, overwrite)
 
     def clear_log(self):
-        """
+        '''
         Requests the controller to tell the UI to clear the log.
-        """
+        '''
         self.controller.clear_log()
 
     # --- Misc Utility Functions
